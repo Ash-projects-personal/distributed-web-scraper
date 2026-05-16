@@ -1,5 +1,9 @@
 # distributed-web-scraper
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![Celery](https://img.shields.io/badge/Celery-distributed-37814A.svg)](https://docs.celeryq.dev/)
+
 Built this to handle massive data extraction tasks without getting blocked. Pushing the core worker logic here.
 
 It's a distributed web scraping cluster using Python, Celery, and Redis. I needed to pull structured data from about 50 different target sites every day, which meant processing over 1 million requests daily.
