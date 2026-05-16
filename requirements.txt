@@ -1,0 +1,16 @@
+# Distributed task queue
+celery[redis]>=5.3,<6.0
+redis>=5.0,<6.0
+
+# HTTP + scraping
+requests>=2.31,<3.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.0,<6.0
+
+# PostgreSQL result store
+psycopg2-binary>=2.9,<3.0
+sqlalchemy>=2.0,<3.0
+
+# Monitoring + retries
+tenacity>=8.2,<9.0
+prometheus-client>=0.20,<1.0
